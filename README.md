@@ -21,13 +21,14 @@ pip install -r requirements.txt
 
 # Test
 
-## Inference Using Pretrained Model on Raw Video
-Download `M2SD` model fine-tuned on FF++ from [here](https://github.com/yinglinzheng/FTCN/releases/download/weights/ftcn_tt.pth) and place it under `./save` folder
+## Inference Using fine-tuned Model on Raw Video
+Download `M2SD` model fine-tuned on FF++ from [here](https://github.com/TianXie834/M2SD/releases/edit/v1.0) and place it under `./save` folder
 ```bash
-python test_on_raw_video.py examples/shining.mp4 output
+python test_on_raw_video.py examples/test.mp4 output
 ```
-the output will be a video under folder `output` named `shining.avi`
+the output will be a video under folder `output` named `test.avi`
 
+![](./examples/test.gif)
 
 # TODO
 - [x] Release model checkpoint.
@@ -48,13 +49,4 @@ The face alignment network comes from [cunjian/pytorch_face_landmark](https://gi
 
 
 # Citation
-If you use this code for your research, please cite our paper.
-```
-@inproceedings{zheng2021exploring,
-  title={Exploring Temporal Coherence for More General Video Face Forgery Detection},
-  author={Zheng, Yinglin and Bao, Jianmin and Chen, Dong and Zeng, Ming and Wen, Fang},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={15044--15054},
-  year={2021}
-}
-```
+TODO
