@@ -19,7 +19,7 @@ pip install -r requirements.txt
 # Test
 
 ## Inference Using fine-tuned Model on Raw Video
-Download `M2SD` model fine-tuned on FF++ from [here](https://github.com/TianXie834/M2SD/releases/edit/v1.0) and place it under `./save` folder
+Download `M2SD` model fine-tuned on FF++ from [here](https://github.com/TianXie834/M2SD/releases/download/v1.0/M2SD.pt) and place it under `./save` folder
 ```bash
 python test_on_raw_video.py examples/test.mp4 output
 ```
