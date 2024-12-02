@@ -37,7 +37,7 @@ the output will be a video under folder `output` named `test.avi`
 # Acknowledgments
 
 
-This code borrows heavily from [FTCN](https://github.com/yinglinzheng/FTCN) and [VideoaMAE](https://github.com/MCG-NJU/VideoMAE).
+This code borrows from [FTCN](https://github.com/yinglinzheng/FTCN) and [VideoaMAE](https://github.com/MCG-NJU/VideoMAE).
 
 The face detection network comes from [biubug6/Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface).
 
