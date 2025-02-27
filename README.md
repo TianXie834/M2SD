@@ -45,4 +45,16 @@ The face alignment network comes from [cunjian/pytorch_face_landmark](https://gi
 
 
 # Citation
-TODO
+If you think this project is helpful, please feel free to cite our paper:
+```
+@ARTICLE{10819430,
+  author={Yu, Lingyun and Xie, Tian and Liu, Chuanbin and Jin, Guoqing and Ding, Zhiguo and Xie, Hongtao},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Distilling Multi-level Semantic Cues across Multi-modalities for Face Forgery Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Forgery;Semantics;Faces;Training;Overfitting;Feature extraction;Detectors;Robustness;Lips;Visualization;face forgery detection;spatial-temporal artifacts;transformer;knowledge distillation;metric learning},
+  doi={10.1109/TCSVT.2024.3524602}}
+```
